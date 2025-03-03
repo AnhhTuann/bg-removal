@@ -12,7 +12,7 @@ const Testimonials = () => {
             className="bg-white rounded-xl p-6 drop-shadow-md max-w-lg m-auto hover:scale-105 transition-all duration-700"
             key={index}
           >
-            <p className="text-4xl text-gray-500">"</p>
+            <p className="text-4xl text-gray-500">&quot;</p>
             <p className="text-sm text-gray-500">{item.text}</p>
             <div className="flex items-center gap-3 mt-5">
               <img className="w-9 rounded-full" src={item.image} alt="" />
